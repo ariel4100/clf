@@ -383,7 +383,7 @@
     <!-- SCRIPTS -->
     <a href="https://wa.me/541122513262" target="_blank" class="btn p-0 rounded-pill  mb-3 d-flex justify-content-center align-items-center " style="z-index: 5; right: 10px; position: fixed; bottom: 0px; height: 50px; width: 50px; background-color: #25d366;">
 
-        <i class="fab fa-whatsapp text-white fa-2x animated wow tada infinite delay-5s"></i>
+        <i class="fab fa-whatsapp text-white fa-2x   "></i>
     </a>
 
 
