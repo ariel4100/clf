@@ -196,8 +196,8 @@
     <div class="view">
         <img src="{{ asset('uploads/image/conf.webp') }}" class="img-fluid" alt="">
         <div class="mask flex-center rgba-black-strong">
-            <h1 class="text-white  display-4 d-md-block d-none font-weight-bolt pt-2 wow fadeIn"  data-wow-delay="0.2s"><strong>PARTICIPE A LA CONFERENCIA</strong></h1>
-            <h1 class="text-white h4-responsive d-md-none d-block font-weight-bolt pt-2 wow fadeIn"  data-wow-delay="0.2s"><strong>PARTICIPE A LA CONFERENCIA</strong></h1>
+            <h1 class="text-white  display-4 d-md-block d-none font-weight-bolt pt-2 wow fadeIn"  data-wow-delay="0.2s"><strong>PARTICIPÁ A LA CONFERENCIA</strong></h1>
+            <h1 class="text-white h4-responsive d-md-none d-block font-weight-bolt pt-2 wow fadeIn"  data-wow-delay="0.2s"><strong>PARTICIPÁ A LA CONFERENCIA</strong></h1>
         </div>
     </div>
 
@@ -257,7 +257,7 @@
 
 <div class="" style="background-color: #111111">
     <div class="container py-5 wow fadeIn text-white"  data-wow-delay="0.2s">
-        <h1 class="oswald   my-5 text-center">COMUNIO GRUPAL</h1>
+        <h1 class="oswald   my-5 text-center">COMUNIÓN GRUPAL</h1>
         <h6 class="line-h fz-18 text-center wow fadeIn"  data-wow-delay="0.2s">
             En un entorno de grupo, identificar las causas de los problemas que se producen en la vida de creencia y en los ministerios. Compartiendo sus luchas y lluvia de ideas para soluciones juntos con la ayuda de un experimentado moderador de CLF.
         </h6>
@@ -383,7 +383,7 @@
     <!-- SCRIPTS -->
     <a href="https://wa.me/541159805967" target="_blank" class="btn p-0 rounded-pill  mb-3 d-flex justify-content-center align-items-center " style="z-index: 5; right: 10px; position: fixed; bottom: 0px; height: 50px; width: 50px; background-color: #25d366;">
 
-        <i class="fab fa-whatsapp text-white fa-2x   "></i>
+        <i class="fab fa-whatsapp text-white fa-2x"></i>
     </a>
 
 
