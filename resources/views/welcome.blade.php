@@ -61,7 +61,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
+                        <li class="nav-item text-center">
                             <a href="https://forms.gle/ak2bbcc1QjaYjBj59" target="_blank" class="btn-outline-dark px-4 nav-link rounded-pill">REGISTRARSE</a>
                         </li>
 
@@ -103,39 +103,33 @@
     <!--/ Navigation -->
 
     <!--Carousel Wrapper-->
-    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-1z" class="carousel slide  " data-ride="carousel">
         <!--Indicators-->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1" class=" "></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2" class=" "></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
-            <!--First slide-->
-            <div class="carousel-item   active">
+{{--            <!--First slide-->--}}
+{{--            <div class="carousel-item   active">--}}
+{{--                <div class="view h-100 d-flex justify-content-center ">--}}
+{{--                    <img class="img-fluid" src="{{ asset('uploads/slider/01.webp') }}" alt="First slide">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+            <div class="carousel-item active">
                 <div class="view h-100 d-flex justify-content-center ">
-                    <img class="img-fluid" src="{{ asset('uploads/slider/01.webp') }}" alt="First slide">
-{{--                    <div class="mask rgba-black-light ">--}}
-{{--                        <!-- Caption -->--}}
-{{--                        <div class="full-bg-img flex-center white-text d-none">--}}
-{{--                            <ul class="animated fadeIn col-10 list-unstyled">--}}
-{{--                                <li>--}}
-{{--                                    <h1 class="h1-responsive font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>--}}
-{{--                                </li>--}}
-{{--                                <li>--}}
-{{--                                    <p>Tempora incidunt ut labore et dolore veritatis et quasi architecto beatae</p>--}}
-{{--                                </li>--}}
-{{--                                <li>--}}
-{{--                                    <a target="_blank" href="{{ asset('uploads/slider/01.webp') }}" class="btn btn-info"--}}
-{{--                                       rel="nofollow">See more!</a>--}}
-{{--                                </li>--}}
-{{--                            </ul>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.Caption -->--}}
-{{--                    </div>--}}
+                    <img class="img-fluid" src="{{ asset('uploads/slider/02.jpg') }}" alt="First slide">
                 </div>
             </div>
 
+            <div class="carousel-item ">
+                <div class="view h-100 d-flex justify-content-center ">
+                    <img class="img-fluid" src="{{ asset('uploads/slider/03.jpg') }}" alt="First slide">
+                </div>
+            </div>
         </div>
         <!--/.Slides-->
         <!--Controls-->
@@ -151,7 +145,27 @@
     </div>
     <!--/.Carousel Wrapper-->
 
+    <div class="container my-5 wow fadeIn"  data-wow-delay="0.2s">
+        <h1 class="oswald font-weight-bolt mb-5 text-center">DIA NACIONAL DE ORACIÓN</h1>
+        <p class="text-center">
+            Muchas Gracias por Acompañarnos al 2do Día Nacional de Oración. <br>
+            Evento en la que se reunieron muchos Líderes Cristianos de las diferentes Provincias de Nuestra Nación, para Orar en conjunto por este tiempo. Donde a pesar de cualquier denominación, Dios nos impulsa a reunirnos y con un mimo corazón poder cumplir con la gran comisión, de ser testigos de su obra.
+        </p>
+        <div class="">
+            {{--            <div class="col-md-12">--}}
+            {{--                <img src="{{ asset('uploads/image/map_clf.webp') }}" class="img-fluid" alt="">--}}
+            {{--            </div>--}}
+            <div class="row autoplay">
+                @foreach([1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17] as $item)
+                    <div class="col-md-4">
+                        <img src="{{ asset("uploads/slider/1 ($item).jpg") }}" class="img-fluid" alt="">
+                    </div>
+                @endforeach
+            </div>
 
+        </div>
+
+    </div>
 
 
     <div class="container mt-5 wow fadeIn" data-wow-delay="0.2s">
